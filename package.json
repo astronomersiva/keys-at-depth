@@ -1,0 +1,25 @@
+{
+  "name": "keys-at-depth",
+  "version": "1.0.0",
+  "description": "Get the keys of an object at a depth 'n'",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && mocha",
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astronomersiva/keys-at-depth.git"
+  },
+  "author": "Sivasubramanyam A<sivasubramanyama@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/astronomersiva/keys-at-depth/issues"
+  },
+  "homepage": "https://github.com/astronomersiva/keys-at-depth#readme",
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "typescript": "^3.5.2"
+  }
+}
